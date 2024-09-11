@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -20,6 +23,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  margin: 5px;
 }
 
 .logo {
@@ -44,5 +48,15 @@ a {
 }
 
 ul {
+  display: flex;
+  margin-left: 5px;
+  padding: 5px;
+  gap: 16px;
   list-style-type: none;
+}
+
+.right, .left{ 
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
